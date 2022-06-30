@@ -41,6 +41,7 @@ const {
 //   - Caso que devuelve false --> objContains(user, "empleo", "Empleado en planta nuclear");
 // Pista: utilizar typeof para determinar si el valor de una propiedad es un objeto para aplicar
 // allí la recursión
+// test
 
 var objContains = function(obj, prop, value){
    if (obj.hasOwnProperty (prop) && obj [prop] === value){
